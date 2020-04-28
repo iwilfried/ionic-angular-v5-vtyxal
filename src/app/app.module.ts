@@ -4,11 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, IonicModule.forRoot() ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
